@@ -1,0 +1,5 @@
+manifest entries 411; transcripts listed 50
+units 50/50 match the manifest; symlinks 0
+per-game request logs 50/50 match the manifest after decompression
+shared requests.jsonl matches True; benchmark.json matches True
+ALL OK

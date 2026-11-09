@@ -1,0 +1,1218 @@
+{
+ "U1": {
+  "estimate": 0.2556183564206022,
+  "lo90": 0.2012023485331767,
+  "hi90": 0.316244126008083,
+  "games": 25,
+  "verdict": "intermediate"
+ },
+ "T1": {
+  "estimate": 0.2673800199732651,
+  "lo90": 0.21108701571453994,
+  "hi90": 0.329216635809456,
+  "games": 25,
+  "verdict": "intermediate"
+ },
+ "U2": {
+  "estimate": -0.007259865971705137,
+  "lo90": -0.12393162393162394,
+  "hi90": 0.13177339901477825,
+  "games": 25,
+  "S_levels": 79,
+  "N_levels": 68,
+  "uptake_S": 0.7721518987341772,
+  "uptake_N": 0.7794117647058824,
+  "verdict": "inconclusive"
+ },
+ "T2": {
+  "estimate": -0.004276550249465383,
+  "lo90": -0.13661202185792354,
+  "hi90": 0.16776135741652987,
+  "games": 25,
+  "S_levels": 69,
+  "N_levels": 61,
+  "uptake_S": 0.782608695652174,
+  "uptake_N": 0.7868852459016393,
+  "verdict": "inconclusive"
+ },
+ "descriptive": {
+  "survival_share": 0.9389830508474576,
+  "eligible": 885,
+  "available": 831,
+  "clearings_by_kind": {
+   "Tool timed out after": 27
+  },
+  "clearings_per_100_calls": {
+   "first": [
+    0.0,
+    0,
+    884
+   ],
+   "S": [
+    1.2686567164179106,
+    17,
+    1340
+   ],
+   "V": [
+    0.4166666666666667,
+    2,
+    480
+   ],
+   "N": [
+    0.49049662783568365,
+    8,
+    1631
+   ]
+  },
+  "opportunity_levels_with_clearing": {
+   "S": [
+    0.12658227848101267,
+    10,
+    79
+   ],
+   "V": [
+    0.0625,
+    2,
+    32
+   ],
+   "N": [
+    0.10294117647058823,
+    7,
+    68
+   ]
+  },
+  "uptake_before_first_clearing": {
+   "S": [
+    0.7,
+    7,
+    10
+   ],
+   "V": [
+    0.5,
+    1,
+    2
+   ],
+   "N": [
+    0.7142857142857143,
+    5,
+    7
+   ]
+  },
+  "calls_per_opportunity_level": {
+   "with_clearing": {
+    "n": 19,
+    "median": 24,
+    "q25": 20,
+    "q75": 40,
+    "mean": 30.63157894736842
+   },
+   "without_clearing": {
+    "n": 160,
+    "median": 14.0,
+    "q25": 8,
+    "q75": 24,
+    "mean": 16.925
+   }
+  },
+  "request_log_check": {
+   "units": 50,
+   "transcript_clearings": 27,
+   "request_counts": {
+    "infra_errors": 27,
+    "silent_cleared": 0,
+    "infra_cleared": 27
+   },
+   "units_agreeing_on_infra_errors": 50
+  }
+ },
+ "units": [
+  {
+   "path": "ar25-0c556536_p0.txt",
+   "game": "ar25",
+   "n_levels": 8,
+   "eligible": 44,
+   "available": 43,
+   "reused": 14,
+   "reused_available": 14,
+   "clearings": [
+    [
+     8,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 85,
+   "level1": {
+    "calls": 7,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 1,
+    "silent_cleared": 0,
+    "infra_cleared": 1
+   }
+  },
+  {
+   "path": "ar25-0c556536_p1.txt",
+   "game": "ar25",
+   "n_levels": 8,
+   "eligible": 41,
+   "available": 28,
+   "reused": 3,
+   "reused_available": 3,
+   "clearings": [
+    [
+     7,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 105,
+   "level1": {
+    "calls": 7,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 1,
+    "silent_cleared": 0,
+    "infra_cleared": 1
+   }
+  },
+  {
+   "path": "bp35-0a0ad940_p0.txt",
+   "game": "bp35",
+   "n_levels": 9,
+   "eligible": 6,
+   "available": 6,
+   "reused": 4,
+   "reused_available": 4,
+   "clearings": [],
+   "calls": 63,
+   "level1": {
+    "calls": 27,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "bp35-0a0ad940_p1.txt",
+   "game": "bp35",
+   "n_levels": 9,
+   "eligible": 1,
+   "available": 1,
+   "reused": 1,
+   "reused_available": 1,
+   "clearings": [],
+   "calls": 57,
+   "level1": {
+    "calls": 23,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "cd82-fb555c5d_p0.txt",
+   "game": "cd82",
+   "n_levels": 6,
+   "eligible": 17,
+   "available": 17,
+   "reused": 8,
+   "reused_available": 8,
+   "clearings": [],
+   "calls": 84,
+   "level1": {
+    "calls": 23,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "cd82-fb555c5d_p1.txt",
+   "game": "cd82",
+   "n_levels": 6,
+   "eligible": 6,
+   "available": 6,
+   "reused": 4,
+   "reused_available": 4,
+   "clearings": [],
+   "calls": 67,
+   "level1": {
+    "calls": 27,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "cn04-2fe56bfb_p0.txt",
+   "game": "cn04",
+   "n_levels": 6,
+   "eligible": 31,
+   "available": 25,
+   "reused": 8,
+   "reused_available": 8,
+   "clearings": [
+    [
+     2,
+     "Tool timed out after"
+    ],
+    [
+     4,
+     "Tool timed out after"
+    ],
+    [
+     4,
+     "Tool timed out after"
+    ],
+    [
+     4,
+     "Tool timed out after"
+    ],
+    [
+     4,
+     "Tool timed out after"
+    ],
+    [
+     4,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 117,
+   "level1": {
+    "calls": 18,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 6,
+    "silent_cleared": 0,
+    "infra_cleared": 6
+   }
+  },
+  {
+   "path": "cn04-2fe56bfb_p1.txt",
+   "game": "cn04",
+   "n_levels": 6,
+   "eligible": 51,
+   "available": 44,
+   "reused": 1,
+   "reused_available": 1,
+   "clearings": [
+    [
+     4,
+     "Tool timed out after"
+    ],
+    [
+     5,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 121,
+   "level1": {
+    "calls": 12,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 2,
+    "silent_cleared": 0,
+    "infra_cleared": 2
+   }
+  },
+  {
+   "path": "dc22-fdcac232_p0.txt",
+   "game": "dc22",
+   "n_levels": 6,
+   "eligible": 7,
+   "available": 7,
+   "reused": 5,
+   "reused_available": 5,
+   "clearings": [],
+   "calls": 121,
+   "level1": {
+    "calls": 34,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "dc22-fdcac232_p1.txt",
+   "game": "dc22",
+   "n_levels": 6,
+   "eligible": 9,
+   "available": 8,
+   "reused": 4,
+   "reused_available": 4,
+   "clearings": [],
+   "calls": 133,
+   "level1": {
+    "calls": 23,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "ft09-0d8bbf25_p0.txt",
+   "game": "ft09",
+   "n_levels": 6,
+   "eligible": 0,
+   "available": 0,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 36,
+   "level1": {
+    "calls": 4,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "ft09-0d8bbf25_p1.txt",
+   "game": "ft09",
+   "n_levels": 6,
+   "eligible": 7,
+   "available": 6,
+   "reused": 3,
+   "reused_available": 3,
+   "clearings": [],
+   "calls": 48,
+   "level1": {
+    "calls": 8,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "g50t-5849a774_p0.txt",
+   "game": "g50t",
+   "n_levels": 7,
+   "eligible": 8,
+   "available": 8,
+   "reused": 4,
+   "reused_available": 4,
+   "clearings": [],
+   "calls": 67,
+   "level1": {
+    "calls": 32,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "g50t-5849a774_p1.txt",
+   "game": "g50t",
+   "n_levels": 7,
+   "eligible": 23,
+   "available": 19,
+   "reused": 4,
+   "reused_available": 4,
+   "clearings": [
+    [
+     3,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 72,
+   "level1": {
+    "calls": 40,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 1,
+    "silent_cleared": 0,
+    "infra_cleared": 1
+   }
+  },
+  {
+   "path": "ka59-38d34dbb_p0.txt",
+   "game": "ka59",
+   "n_levels": 7,
+   "eligible": 35,
+   "available": 28,
+   "reused": 1,
+   "reused_available": 1,
+   "clearings": [
+    [
+     3,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 107,
+   "level1": {
+    "calls": 17,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 1,
+    "silent_cleared": 0,
+    "infra_cleared": 1
+   }
+  },
+  {
+   "path": "ka59-38d34dbb_p1.txt",
+   "game": "ka59",
+   "n_levels": 7,
+   "eligible": 33,
+   "available": 33,
+   "reused": 1,
+   "reused_available": 1,
+   "clearings": [],
+   "calls": 81,
+   "level1": {
+    "calls": 39,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "lf52-271a04aa_p0.txt",
+   "game": "lf52",
+   "n_levels": 10,
+   "eligible": 12,
+   "available": 12,
+   "reused": 5,
+   "reused_available": 5,
+   "clearings": [],
+   "calls": 82,
+   "level1": {
+    "calls": 13,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "lf52-271a04aa_p1.txt",
+   "game": "lf52",
+   "n_levels": 10,
+   "eligible": 41,
+   "available": 41,
+   "reused": 12,
+   "reused_available": 12,
+   "clearings": [],
+   "calls": 189,
+   "level1": {
+    "calls": 22,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "lp85-305b61c3_p0.txt",
+   "game": "lp85",
+   "n_levels": 8,
+   "eligible": 16,
+   "available": 16,
+   "reused": 5,
+   "reused_available": 5,
+   "clearings": [],
+   "calls": 85,
+   "level1": {
+    "calls": 7,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "lp85-305b61c3_p1.txt",
+   "game": "lp85",
+   "n_levels": 8,
+   "eligible": 22,
+   "available": 22,
+   "reused": 4,
+   "reused_available": 4,
+   "clearings": [],
+   "calls": 94,
+   "level1": {
+    "calls": 11,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "ls20-9607627b_p0.txt",
+   "game": "ls20",
+   "n_levels": 7,
+   "eligible": 0,
+   "available": 0,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 39,
+   "level1": {
+    "calls": 15,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "ls20-9607627b_p1.txt",
+   "game": "ls20",
+   "n_levels": 7,
+   "eligible": 21,
+   "available": 21,
+   "reused": 5,
+   "reused_available": 5,
+   "clearings": [
+    [
+     5,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 129,
+   "level1": {
+    "calls": 13,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 1,
+    "silent_cleared": 0,
+    "infra_cleared": 1
+   }
+  },
+  {
+   "path": "m0r0-492f87ba_p0.txt",
+   "game": "m0r0",
+   "n_levels": 6,
+   "eligible": 24,
+   "available": 23,
+   "reused": 5,
+   "reused_available": 5,
+   "clearings": [],
+   "calls": 127,
+   "level1": {
+    "calls": 23,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "m0r0-492f87ba_p1.txt",
+   "game": "m0r0",
+   "n_levels": 6,
+   "eligible": 0,
+   "available": 0,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 36,
+   "level1": {
+    "calls": 36,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "r11l-495a7899_p0.txt",
+   "game": "r11l",
+   "n_levels": 6,
+   "eligible": 19,
+   "available": 19,
+   "reused": 11,
+   "reused_available": 11,
+   "clearings": [
+    [
+     6,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 96,
+   "level1": {
+    "calls": 12,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 1,
+    "silent_cleared": 0,
+    "infra_cleared": 1
+   }
+  },
+  {
+   "path": "r11l-495a7899_p1.txt",
+   "game": "r11l",
+   "n_levels": 6,
+   "eligible": 16,
+   "available": 16,
+   "reused": 7,
+   "reused_available": 7,
+   "clearings": [
+    [
+     5,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 113,
+   "level1": {
+    "calls": 12,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 1,
+    "silent_cleared": 0,
+    "infra_cleared": 1
+   }
+  },
+  {
+   "path": "re86-8af5384d_p0.txt",
+   "game": "re86",
+   "n_levels": 8,
+   "eligible": 14,
+   "available": 14,
+   "reused": 2,
+   "reused_available": 2,
+   "clearings": [],
+   "calls": 71,
+   "level1": {
+    "calls": 8,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "re86-8af5384d_p1.txt",
+   "game": "re86",
+   "n_levels": 8,
+   "eligible": 17,
+   "available": 17,
+   "reused": 6,
+   "reused_available": 6,
+   "clearings": [],
+   "calls": 66,
+   "level1": {
+    "calls": 8,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "s5i5-18d95033_p0.txt",
+   "game": "s5i5",
+   "n_levels": 8,
+   "eligible": 1,
+   "available": 1,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 35,
+   "level1": {
+    "calls": 12,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "s5i5-18d95033_p1.txt",
+   "game": "s5i5",
+   "n_levels": 8,
+   "eligible": 26,
+   "available": 25,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 66,
+   "level1": {
+    "calls": 13,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "sb26-7fbdac44_p0.txt",
+   "game": "sb26",
+   "n_levels": 8,
+   "eligible": 9,
+   "available": 9,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 50,
+   "level1": {
+    "calls": 9,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "sb26-7fbdac44_p1.txt",
+   "game": "sb26",
+   "n_levels": 8,
+   "eligible": 3,
+   "available": 3,
+   "reused": 2,
+   "reused_available": 2,
+   "clearings": [],
+   "calls": 48,
+   "level1": {
+    "calls": 6,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "sc25-635fd71a_p0.txt",
+   "game": "sc25",
+   "n_levels": 6,
+   "eligible": 8,
+   "available": 8,
+   "reused": 2,
+   "reused_available": 2,
+   "clearings": [],
+   "calls": 111,
+   "level1": {
+    "calls": 22,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "sc25-635fd71a_p1.txt",
+   "game": "sc25",
+   "n_levels": 6,
+   "eligible": 8,
+   "available": 7,
+   "reused": 4,
+   "reused_available": 4,
+   "clearings": [
+    [
+     5,
+     "Tool timed out after"
+    ],
+    [
+     6,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 117,
+   "level1": {
+    "calls": 22,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 2,
+    "silent_cleared": 0,
+    "infra_cleared": 2
+   }
+  },
+  {
+   "path": "sk48-d8078629_p0.txt",
+   "game": "sk48",
+   "n_levels": 8,
+   "eligible": 0,
+   "available": 0,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 27,
+   "level1": {
+    "calls": 27,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "sk48-d8078629_p1.txt",
+   "game": "sk48",
+   "n_levels": 8,
+   "eligible": 17,
+   "available": 17,
+   "reused": 3,
+   "reused_available": 3,
+   "clearings": [],
+   "calls": 50,
+   "level1": {
+    "calls": 39,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "sp80-589a99af_p0.txt",
+   "game": "sp80",
+   "n_levels": 6,
+   "eligible": 23,
+   "available": 22,
+   "reused": 3,
+   "reused_available": 3,
+   "clearings": [
+    [
+     2,
+     "Tool timed out after"
+    ],
+    [
+     4,
+     "Tool timed out after"
+    ],
+    [
+     4,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 128,
+   "level1": {
+    "calls": 11,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 3,
+    "silent_cleared": 0,
+    "infra_cleared": 3
+   }
+  },
+  {
+   "path": "sp80-589a99af_p1.txt",
+   "game": "sp80",
+   "n_levels": 6,
+   "eligible": 1,
+   "available": 1,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 46,
+   "level1": {
+    "calls": 13,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "su15-1944f8ab_p0.txt",
+   "game": "su15",
+   "n_levels": 9,
+   "eligible": 12,
+   "available": 12,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 100,
+   "level1": {
+    "calls": 15,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "su15-1944f8ab_p1.txt",
+   "game": "su15",
+   "n_levels": 9,
+   "eligible": 11,
+   "available": 11,
+   "reused": 4,
+   "reused_available": 4,
+   "clearings": [
+    [
+     5,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 102,
+   "level1": {
+    "calls": 8,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 1,
+    "silent_cleared": 0,
+    "infra_cleared": 1
+   }
+  },
+  {
+   "path": "tn36-ef4dde99_p0.txt",
+   "game": "tn36",
+   "n_levels": 7,
+   "eligible": 2,
+   "available": 2,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 59,
+   "level1": {
+    "calls": 14,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "tn36-ef4dde99_p1.txt",
+   "game": "tn36",
+   "n_levels": 7,
+   "eligible": 0,
+   "available": 0,
+   "reused": 0,
+   "reused_available": 0,
+   "clearings": [],
+   "calls": 30,
+   "level1": {
+    "calls": 30,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "tr87-cd924810_p0.txt",
+   "game": "tr87",
+   "n_levels": 6,
+   "eligible": 47,
+   "available": 46,
+   "reused": 7,
+   "reused_available": 7,
+   "clearings": [],
+   "calls": 81,
+   "level1": {
+    "calls": 15,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "tr87-cd924810_p1.txt",
+   "game": "tr87",
+   "n_levels": 6,
+   "eligible": 66,
+   "available": 63,
+   "reused": 16,
+   "reused_available": 16,
+   "clearings": [],
+   "calls": 84,
+   "level1": {
+    "calls": 26,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "tu93-0768757b_p0.txt",
+   "game": "tu93",
+   "n_levels": 9,
+   "eligible": 43,
+   "available": 42,
+   "reused": 3,
+   "reused_available": 3,
+   "clearings": [
+    [
+     6,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 171,
+   "level1": {
+    "calls": 10,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 1,
+    "silent_cleared": 0,
+    "infra_cleared": 1
+   }
+  },
+  {
+   "path": "tu93-0768757b_p1.txt",
+   "game": "tu93",
+   "n_levels": 9,
+   "eligible": 17,
+   "available": 17,
+   "reused": 5,
+   "reused_available": 5,
+   "clearings": [],
+   "calls": 174,
+   "level1": {
+    "calls": 9,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "vc33-5430563c_p0.txt",
+   "game": "vc33",
+   "n_levels": 7,
+   "eligible": 15,
+   "available": 12,
+   "reused": 2,
+   "reused_available": 2,
+   "clearings": [
+    [
+     5,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 102,
+   "level1": {
+    "calls": 12,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 1,
+    "silent_cleared": 0,
+    "infra_cleared": 1
+   }
+  },
+  {
+   "path": "vc33-5430563c_p1.txt",
+   "game": "vc33",
+   "n_levels": 7,
+   "eligible": 28,
+   "available": 28,
+   "reused": 4,
+   "reused_available": 4,
+   "clearings": [],
+   "calls": 87,
+   "level1": {
+    "calls": 14,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "wa30-ee6fef47_p0.txt",
+   "game": "wa30",
+   "n_levels": 9,
+   "eligible": 4,
+   "available": 4,
+   "reused": 1,
+   "reused_available": 1,
+   "clearings": [],
+   "calls": 53,
+   "level1": {
+    "calls": 18,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 0,
+    "silent_cleared": 0
+   }
+  },
+  {
+   "path": "wa30-ee6fef47_p1.txt",
+   "game": "wa30",
+   "n_levels": 9,
+   "eligible": 23,
+   "available": 21,
+   "reused": 7,
+   "reused_available": 7,
+   "clearings": [
+    [
+     4,
+     "Tool timed out after"
+    ],
+    [
+     5,
+     "Tool timed out after"
+    ],
+    [
+     5,
+     "Tool timed out after"
+    ],
+    [
+     5,
+     "Tool timed out after"
+    ]
+   ],
+   "calls": 123,
+   "level1": {
+    "calls": 18,
+    "clearings": 0
+   },
+   "requests": {
+    "infra_errors": 4,
+    "silent_cleared": 0,
+    "infra_cleared": 4
+   }
+  }
+ ]
+}

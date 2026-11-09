@@ -1,0 +1,7 @@
+7 games, 44 levels
+AI\human    S    V    N
+       S   16    0    0
+       V    2    1    1
+       N    2    9   13
+raw agreement 0.682; kappa 0.503 (90% game bootstrap 0.308 to 0.681)
+S-vs-N agreement where both chose S or N: 29/31

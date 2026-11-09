@@ -1,0 +1,184 @@
+game,level,n_levels,human_baseline,score_weight,baseline_ratio_to_earlier_median,label,note,auto_new_colors,auto_new_object_types
+ar25,1,8,32,0.0278,,first,,,
+ar25,2,8,50,0.0556,1.562,S,same piece types (dark gray; yellow; black dotted) and vertical dotted axis,,1
+ar25,3,8,75,0.0833,1.829,V,dotted axis now horizontal; more yellow pieces,,6
+ar25,4,8,37,0.1111,0.74,S,horizontal axis; known pieces,,4
+ar25,5,8,89,0.1389,2.046,V,vertical and horizontal axes at once,,3
+ar25,6,8,159,0.1667,3.18,S,both axes; known pieces; dark gray block at the edge,,13
+ar25,7,8,233,0.1944,3.728,S,known elements; larger black dotted piece,,1
+ar25,8,8,73,0.2222,0.973,S,known elements,,5
+bp35,1,9,21,0.0222,,first,,,
+bp35,2,9,48,0.0444,2.286,N,purple blocks with yellow tops appear,15,3
+bp35,3,9,44,0.0667,1.275,N,orange X marks and orange round blocks appear,12,3
+bp35,4,9,38,0.0889,0.864,S,purple and green blocks only,,0
+bp35,5,9,33,0.1111,0.805,N,pink plus and red block appear,7 8,4
+bp35,6,9,87,0.1333,2.289,S,purple blocks; orange X; red block (all seen),,0
+bp35,7,9,86,0.1556,2.098,S,column of red blocks; orange X; purple blocks (all seen),,1
+bp35,8,9,131,0.1778,2.977,N,large purple square appears,,2
+bp35,9,9,163,0.2,3.543,S,large purple square and red blocks (seen),,0
+cd82,1,6,55,0.0476,,first,,,
+cd82,2,6,8,0.0952,0.145,V,palette gains orange; target has a diagonal split,12,4
+cd82,3,6,41,0.1429,1.302,N,palette gains yellow/green/red/blue; small cap appears on the holder,8 9 11 14,12
+cd82,4,6,21,0.1905,0.512,S,same palette and holder; new target pattern,,4
+cd82,5,6,23,0.2381,0.742,S,same palette and holder; new target pattern,,5
+cd82,6,6,23,0.2857,1.0,S,same palette and holder; new target pattern,,3
+cn04,1,6,29,0.0476,,first,,,
+cn04,2,6,54,0.0952,1.862,V,more outlined pieces in new colors; background color changes,9 11 12,1
+cn04,3,6,85,0.1429,2.048,N,dark pieces without red connectors appear,,1
+cn04,4,6,300,0.1905,5.556,S,outlined piece plus dark pieces,,1
+cn04,5,6,208,0.2381,2.993,S,small multicolor piece plus dark pieces,15,3
+cn04,6,6,113,0.2857,1.329,S,outlined piece plus dark pieces,,2
+dc22,1,6,59,0.0476,,first,,,
+dc22,2,6,102,0.0952,1.729,V,pink target and pink bar (new color of known types),6 7,9
+dc22,3,6,67,0.1429,0.832,N,purple checkered block appears; three targets,15,6
+dc22,4,6,98,0.1905,1.463,N,yellow L piece and orange bar appear,1 12,9
+dc22,5,6,324,0.2381,3.927,N,large white L track; orange connector; red outlined square appear,10,9
+dc22,6,6,578,0.2857,5.898,N,orange cross piece and dark cross pattern appear,,23
+ft09,1,6,43,0.0476,,first,,,
+ft09,2,6,12,0.0952,0.279,N,single grid replaces four example panels; color indicator appears,,3
+ft09,3,6,23,0.1429,0.836,S,same layout with red tiles,,3
+ft09,4,6,28,0.1905,1.217,V,three-color indicator,,5
+ft09,5,6,65,0.2381,2.549,N,checkered pink/green tiles and purple marks appear,3 6 14 15,11
+ft09,6,6,37,0.2857,1.321,N,yellow tiles with magenta corner marks appear,11,6
+g50t,1,7,78,0.0357,,first,,,
+g50t,2,7,175,0.0714,2.244,S,red pistons; blue goal bracket; blue square (all seen),,2
+g50t,3,7,179,0.1071,1.415,N,yellow bar with square ends appears,11,3
+g50t,4,7,230,0.1429,1.314,N,purple linked boxes appear,15,3
+g50t,5,7,96,0.1786,0.542,S,known elements combined,,2
+g50t,6,7,54,0.2143,0.309,N,green square appears,14,2
+g50t,7,7,67,0.25,0.494,S,known elements combined,,3
+ka59,1,7,28,0.0357,,first,,,
+ka59,2,7,109,0.0714,3.893,V,larger green blocks and bars (green items seen as small squares),,9
+ka59,3,7,51,0.1071,0.745,N,yellow plus and outlined plus shapes appear,11,2
+ka59,4,7,51,0.1429,1.0,S,known elements,,1
+ka59,5,7,33,0.1786,0.647,N,dark red block with orange top in a purple U appears; orange marker on a box,12 13,6
+ka59,6,7,132,0.2143,2.588,S,dark red blocks; plus shapes; walls (seen),,2
+ka59,7,7,326,0.25,6.392,S,known elements,,5
+lf52,1,10,32,0.0182,,first,,,
+lf52,2,10,81,0.0364,2.531,N,orange nodes and black connection lines appear,11 12,7
+lf52,3,10,60,0.0545,1.062,S,more boards and nodes,,5
+lf52,4,10,71,0.0727,1.183,N,purple pieces appear,7 15,8
+lf52,5,10,205,0.0909,3.13,S,known elements,,5
+lf52,6,10,148,0.1091,2.085,N,red dot appears,8,5
+lf52,7,10,244,0.1273,3.211,S,known elements on small boards,,4
+lf52,8,10,109,0.1455,1.346,N,blue dots appear,,5
+lf52,9,10,164,0.1636,1.726,S,known elements,,3
+lf52,10,10,225,0.1818,2.064,V,blue-filled node; three nodes on one board,,8
+lp85,1,8,17,0.0278,,first,,,
+lp85,2,8,38,0.0556,2.235,V,two chains cross; more red/green pointers,,11
+lp85,3,8,31,0.0833,1.127,V,two linked loops; pointers moved below,12,2
+lp85,4,8,16,0.1111,0.516,S,four separate crosses with pointers,,2
+lp85,5,8,41,0.1389,1.708,S,same element types at a larger scale,,0
+lp85,6,8,60,0.1667,1.935,S,larger network of known elements,,1
+lp85,7,8,26,0.1944,0.754,S,small chain of known elements,,0
+lp85,8,8,159,0.2222,5.129,S,branching network; stacked pointers,,0
+ls20,1,7,22,0.0357,,first,,,
+ls20,2,7,123,0.0714,5.591,N,yellow square pickups appear,,5
+ls20,3,7,73,0.1071,1.007,N,rainbow tile and white wall bars appear,14,11
+ls20,4,7,84,0.1429,1.151,S,known elements; key shape and color change,,2
+ls20,5,7,96,0.1786,1.223,N,red target box appears (second target type),,4
+ls20,6,7,192,0.2143,2.286,S,red and blue target boxes (seen),,4
+ls20,7,7,186,0.25,2.067,N,fog limits the visible area,,3
+m0r0,1,6,30,0.0476,,first,,,
+m0r0,2,6,111,0.0952,3.7,N,checkered hazard tiles and pink/purple bars appear,6 8 15,2
+m0r0,3,6,203,0.1429,2.879,N,small blue squares appear,9,2
+m0r0,4,6,26,0.1905,0.234,S,known elements,,1
+m0r0,5,6,500,0.2381,7.092,N,green/orange/purple bars appear,7 14,7
+m0r0,6,6,237,0.2857,2.135,V,orange and green squares (colors seen as bars),,0
+r11l,1,6,22,0.0476,,first,,,
+r11l,2,6,33,0.0952,1.5,N,light blue water regions appear,10 12,8
+r11l,3,6,51,0.1429,1.855,V,green hub node (new color of a known node),14,4
+r11l,4,6,26,0.1905,0.788,N,split-color nodes and many target colors appear,7 8 9 11 13,18
+r11l,5,6,52,0.2381,1.763,V,split-color pieces appear unattached,4,10
+r11l,6,6,49,0.2857,1.485,S,known elements,,20
+re86,1,8,26,0.0278,,first,,,
+re86,2,8,42,0.0556,1.615,N,X shape and diamond outline appear,12 13,3
+re86,3,8,86,0.0833,2.529,S,X and diamond (seen) in red,8,3
+re86,4,8,108,0.1111,2.571,N,colored swatches in the corners appear,2 6 10 14,12
+re86,5,8,189,0.1389,2.953,S,known elements,,5
+re86,6,8,139,0.1667,1.616,N,large square outline and gray blob appear,1,2
+re86,7,8,424,0.1944,4.371,S,known elements,7,15
+re86,8,8,241,0.2222,2.231,N,plus icons appear,,9
+s5i5,1,8,20,0.0278,,first,,,
+s5i5,2,8,89,0.0556,4.45,N,purple walls appear; button row moves to the bottom,10 12 15,10
+s5i5,3,8,106,0.0833,1.945,V,bars in new colors; pink dot,1 7 8 9,14
+s5i5,4,8,54,0.1111,0.607,S,known elements,,3
+s5i5,5,8,162,0.1389,2.266,N,buttons with a bar icon appear,,10
+s5i5,6,8,38,0.1667,0.427,N,buttons with a plus icon appear,,9
+s5i5,7,8,86,0.1944,1.203,V,mixed button types,,10
+s5i5,8,8,83,0.2222,0.965,N,colored cross target appears,,6
+sb26,1,8,18,0.0278,,first,,,
+sb26,2,8,28,0.0556,1.556,N,linked second frame and frame-reference box appear,6 12,6
+sb26,3,8,18,0.0833,0.783,S,more frames and references,,4
+sb26,4,8,19,0.1111,1.056,N,pre-filled slot and outlined palette item appear,,1
+sb26,5,8,31,0.1389,1.676,S,known elements,,1
+sb26,6,8,23,0.1667,1.211,S,four frames with pre-filled slots,,3
+sb26,7,8,58,0.1944,2.762,S,three frames,,0
+sb26,8,8,18,0.2222,0.783,V,two-row target sequence,,1
+sc25,1,6,36,0.0476,,first,,,
+sc25,2,6,6,0.0952,0.167,N,yellow corner markers and a gate appear,4 11,8
+sc25,3,6,32,0.1429,1.524,N,pink socket and dark red block appear,6 13,8
+sc25,4,6,83,0.1905,2.594,V,several pattern panels,,4
+sc25,5,6,143,0.2381,4.206,N,orange block appears,12,5
+sc25,6,6,50,0.2857,1.389,S,known elements,,1
+sk48,1,8,61,0.0278,,first,,,
+sk48,2,8,177,0.0556,2.902,S,orange square added to the chain colors,12,1
+sk48,3,8,101,0.0833,0.849,V,yellow marker at the top of a column,11,2
+sk48,4,8,103,0.1111,1.02,N,two rails with markers; markers shown in the target bar,10,3
+sk48,5,8,230,0.1389,2.255,N,black gap block in the chain,,3
+sk48,6,8,181,0.1667,1.757,N,second (purple) head and second target,15,4
+sk48,7,8,125,0.1944,0.893,S,two heads (seen),,0
+sk48,8,8,92,0.2222,0.736,S,known elements,,0
+sp80,1,6,39,0.0476,,first,,,
+sp80,2,6,58,0.0952,1.487,N,red bars appear; cups and spouts swap sides,8,1
+sp80,3,6,25,0.1429,0.515,S,known elements,,1
+sp80,4,6,148,0.1905,3.795,N,red bar with a black center appears,,7
+sp80,5,6,96,0.2381,1.979,N,purple L shapes appear,15,3
+sp80,6,6,152,0.2857,2.621,V,cups on the side walls; blue L shape,,5
+su15,1,9,22,0.0222,,first,,,
+su15,2,9,42,0.0444,1.909,N,color inventory bar and cyan dots appear,6 10 11,6
+su15,3,9,26,0.0667,0.812,V,pink small squares; two circles,,0
+su15,4,9,115,0.0889,4.423,N,pink boat shape appears,7,2
+su15,5,9,36,0.1111,1.059,S,known elements,,0
+su15,6,9,31,0.1333,0.861,N,red square appears,8 12,4
+su15,7,9,8,0.1556,0.239,S,known elements,,0
+su15,8,9,40,0.1778,1.29,N,orange targets; green checker; yellow squares appear,13 14,6
+su15,9,9,41,0.2,1.224,V,new target pattern,,2
+tn36,1,7,32,0.0357,,first,,,
+tn36,2,7,72,0.0714,2.25,N,program boxes; target preview panel; instruction bars appear,2 3,7
+tn36,3,7,26,0.1071,0.5,N,magenta walls appear,6,4
+tn36,4,7,40,0.1429,1.25,V,new instruction icons,,9
+tn36,5,7,30,0.1786,0.833,N,purple U shape and plus/purple instruction icons appear,15,9
+tn36,6,7,55,0.2143,1.719,N,yellow checker tiles appear,,4
+tn36,7,7,62,0.25,1.722,N,red/green items in checker tiles appear,12 13 14,6
+tr87,1,6,54,0.0476,,first,,,
+tr87,2,6,58,0.0952,1.074,N,yellow multi-symbol tiles appear,11,31
+tr87,3,6,40,0.1429,0.714,S,known tile types,,13
+tr87,4,6,45,0.1905,0.833,S,known tile types in columns,,17
+tr87,5,6,71,0.2381,1.434,N,selection bracket moves into the dictionary area,,9
+tr87,6,6,146,0.2857,2.704,S,known elements,,12
+tu93,1,9,19,0.0222,,first,,,
+tu93,2,9,16,0.0444,0.842,N,red tile appears,8 15,3
+tu93,3,9,34,0.0667,1.943,S,known elements,,2
+tu93,4,9,42,0.0889,2.211,N,orange tile appears,12,1
+tu93,5,9,123,0.1111,4.642,S,known elements,,3
+tu93,6,9,80,0.1333,2.353,S,known elements,,2
+tu93,7,9,14,0.1556,0.368,N,dark red tile appears,13,1
+tu93,8,9,23,0.1778,0.676,S,known elements,,0
+tu93,9,9,111,0.2,3.895,S,known elements,,0
+vc33,1,7,7,0.0357,,first,,,
+vc33,2,7,18,0.0714,2.571,S,green marker (new color of a known marker),14,4
+vc33,3,7,44,0.1071,3.52,V,framed area with several markers and arrows,15,18
+vc33,4,7,61,0.1429,3.389,N,light gray bar segments appear,1,11
+vc33,5,7,131,0.1786,4.226,S,known elements,,8
+vc33,6,7,34,0.2143,0.773,V,crossing bars,,0
+vc33,7,7,152,0.25,3.897,S,known elements,,7
+wa30,1,9,71,0.0222,,first,,,
+wa30,2,9,119,0.0444,1.676,N,orange square appears,12,3
+wa30,3,9,183,0.0667,1.926,N,checkered wall appears,,6
+wa30,4,9,98,0.0889,0.824,N,black walls appear,5,16
+wa30,5,9,368,0.1111,3.392,S,known elements,,0
+wa30,6,9,68,0.1333,0.571,N,purple square appears,15,4
+wa30,7,9,79,0.1556,0.728,V,dark regions cover part of the floor,,1
+wa30,8,9,442,0.1778,4.51,V,gray pads holding objects,,4
+wa30,9,9,415,0.2,3.825,S,known elements,,5

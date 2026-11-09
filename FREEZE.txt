@@ -1,0 +1,72 @@
+Frozen at: 2026-10-25T18:47:37Z (before any ablation run)
+SHA-256:
+f3fa8f8530b8a6e5041f821e82c9d8b186083e0e133a45c371d0c23975bd83e8  PREREGISTRATION.md
+13f96096f8ad0a708bd06089fa308d1233cce2842826010e4ef34277a4bafdf8  analysis/analyze_ablation.py
+a2eaacd3b98ef536b4c1964ad365b42206cf59fd20c98a2ec8896fa4b5dbdd1d  analysis/test_analyze_synthetic.py
+d80f00f88fc693937c60b76d435d380090115f03c3aa2e49a3b99db7c11ea00a  analysis/power_synthetic.py
+fb8ef8a0dc17b79dbda2b4b4ba0ee5b1784ea54202d313abf7fbdf7574f8dee0  level_annotation/levels.csv
+74b9eeeb6645eb5587bf250a655f777ac9ab7525481bf7420c737254eb9156e0  level_annotation/manual_labels.csv
+
+Check later with: cd paper-track && shasum -a 256 -c <(sed -n '3,8p' FREEZE.txt)
+
+Amendment 1 at: 2026-10-25T18:56:51Z (no ablation data existed; ablation model changed to PACE Gemma 4, see PREREGISTRATION.md Amendments)
+SHA-256 after amendment 1:
+2f8d9a581e166ba38fa6e47e0839fcc901a0f38b01615de5a7f1c9784a78c881  PREREGISTRATION.md
+Check after amendment 1: shasum -a 256 -c <(sed -n '4,8p' FREEZE.txt) for the unchanged files, and shasum -a 256 -c <(tail -2 FREEZE.txt | head -1) for the amended PREREGISTRATION.md (the line-3 hash records the original version).
+
+Amendment 2 at: 2026-10-25T22:10:37Z (no ablation data existed; manipulation-check gate added, Gemma excluded after a single-arm smoke run; see PREREGISTRATION.md Amendments)
+SHA-256 after amendment 2:
+02c7494150fdb6b9fa78bf9f39e4f7452262fa2398a4f6ce261d0413d572bd06  PREREGISTRATION.md
+
+Amendment 3 at: 2026-10-26T04:52:42Z (no confirmatory data existed; primary question changed to reuse uptake in the submitted configuration; see PREREGISTRATION.md Amendments)
+SHA-256 after amendment 3:
+2fc9847db78dd2dd5a5321ea51705aac49112a20263b5e06767902aa61fe5770  PREREGISTRATION.md
+dc907df06d8c2d2623d953c293e97499460cd74d05dd8f16d3b2926013533d99  analysis/analyze_reuse.py
+fa19e591d06f22969ca5f70cedaede6fa0589a9a4e9684bbc2b9a76fd54d8922  analysis/test_analyze_reuse_synthetic.py
+Check amendment 3 files: shasum -a 256 -c <(tail -4 FREEZE.txt | head -3)
+
+Amendment 4 at: 2026-10-27T04:01:56Z (no confirmatory data existed; seen-data list, timeout-clearing sensitivity analyses T1/T2 and their code, measured configuration = version 1, data source = Kaggle Option B approved by the user 2026-10-27T03:20Z, parent-configuration replication; reviewed by F, research/review/REVIEW_PAPER_AMENDMENT4_20261027.md; see PREREGISTRATION.md Amendment 4)
+The frozen level_annotation/levels.csv (2026-10-25) also defines the expected games of Amendment 4 sections 6 and 7.
+SHA-256 of every file valid after amendment 4 (unchanged files repeated; the PREREGISTRATION.md line supersedes the one under Amendment 3):
+99eb7a259612a82eb5ad2cccbd13859981298979a642470f70d05b9ae3a175df  PREREGISTRATION.md
+13f96096f8ad0a708bd06089fa308d1233cce2842826010e4ef34277a4bafdf8  analysis/analyze_ablation.py
+a2eaacd3b98ef536b4c1964ad365b42206cf59fd20c98a2ec8896fa4b5dbdd1d  analysis/test_analyze_synthetic.py
+d80f00f88fc693937c60b76d435d380090115f03c3aa2e49a3b99db7c11ea00a  analysis/power_synthetic.py
+fb8ef8a0dc17b79dbda2b4b4ba0ee5b1784ea54202d313abf7fbdf7574f8dee0  level_annotation/levels.csv
+74b9eeeb6645eb5587bf250a655f777ac9ab7525481bf7420c737254eb9156e0  level_annotation/manual_labels.csv
+dc907df06d8c2d2623d953c293e97499460cd74d05dd8f16d3b2926013533d99  analysis/analyze_reuse.py
+fa19e591d06f22969ca5f70cedaede6fa0589a9a4e9684bbc2b9a76fd54d8922  analysis/test_analyze_reuse_synthetic.py
+8752018e9767a0d9b69041a450882494ce299dc23dd3b2499d439cae7ee27394  analysis/analyze_reuse_clearing.py
+5238c27c00d2406c59840cf15fa245328b37e9fff1c28d38ace9ea61e7824375  analysis/prepare_units.py
+2d0058e1a619354c43fda8977e721decdc909166351ae4d4040da960541603cb  analysis/test_analyze_reuse_clearing_synthetic.py
+6f9eb6c894c66803de90d3858fddc7fb3091bdd735dd82833f70c9fe3caf3451  level_annotation/human_check/make_sample.py
+1177ff123aed78df2fd1afdbd0098931d951b40055568468278cc7e3f62725c8  level_annotation/human_check/kappa.py
+2d4c138bb0e4f4af01bc979ec6ea8d1eeaef6068bc002ea8940bacc9d2562dfd  level_annotation/human_check/sample_games.txt
+ad754ce9512da50399164fc6dafdd43009f6dbb45b5220481d258212b9e898f3  third_party/franzen_m2_v3/MANIFEST_transcripts_events.sha256
+a0121a8c2f29ecac9d798c0c3781d7334ac1662386b625362665bb9620b9191c  third_party/franzen_m2_v3/MANIFEST.sha256
+Check all current files: shasum -a 256 -c <(tail -17 FREEZE.txt | head -16)
+
+Amendment 5 at: 2026-10-27T04:13:01Z (no confirmatory data existed; section 7 not analysed; invalid game-runs on Kaggle are judged from the benchmark.json history because final_generated_tokens is always 0 there; reviewed by F, research/review/REVIEW_PAPER_AMENDMENT5_20261027.md; see PREREGISTRATION.md Amendment 5)
+In the Amendment 4 block above, the lines for analysis/prepare_units.py and analysis/test_analyze_reuse_clearing_synthetic.py no longer match by design: those paths now hold the Amendment 5 versions. The Amendment 4 bytes are archived at analysis/frozen_a4/ with the hashes recorded under Amendment 4. analysis/check_s7_format.py is the one-off feasibility check run at the freezing of Amendment 4. frozen_history/PREREGISTRATION.after_a4.md is a copy of PREREGISTRATION.md as frozen by Amendment 4.
+SHA-256 of every file valid after amendment 5 (unchanged files repeated; the PREREGISTRATION.md line supersedes the earlier ones):
+90727c289ac47369c7559022c507189fb3c49b254830c59f367609daaecc77ff  PREREGISTRATION.md
+13f96096f8ad0a708bd06089fa308d1233cce2842826010e4ef34277a4bafdf8  analysis/analyze_ablation.py
+a2eaacd3b98ef536b4c1964ad365b42206cf59fd20c98a2ec8896fa4b5dbdd1d  analysis/test_analyze_synthetic.py
+d80f00f88fc693937c60b76d435d380090115f03c3aa2e49a3b99db7c11ea00a  analysis/power_synthetic.py
+fb8ef8a0dc17b79dbda2b4b4ba0ee5b1784ea54202d313abf7fbdf7574f8dee0  level_annotation/levels.csv
+74b9eeeb6645eb5587bf250a655f777ac9ab7525481bf7420c737254eb9156e0  level_annotation/manual_labels.csv
+dc907df06d8c2d2623d953c293e97499460cd74d05dd8f16d3b2926013533d99  analysis/analyze_reuse.py
+fa19e591d06f22969ca5f70cedaede6fa0589a9a4e9684bbc2b9a76fd54d8922  analysis/test_analyze_reuse_synthetic.py
+8752018e9767a0d9b69041a450882494ce299dc23dd3b2499d439cae7ee27394  analysis/analyze_reuse_clearing.py
+6d79af14db1916c7a0e947fc59d350f1e05b309119fd854d8fbbae1c4df75342  analysis/prepare_units.py
+44e56f616cb2f31809c3eaee187a3df072472025996b103eae84770a95aaa382  analysis/test_analyze_reuse_clearing_synthetic.py
+5238c27c00d2406c59840cf15fa245328b37e9fff1c28d38ace9ea61e7824375  analysis/frozen_a4/prepare_units.py
+2d0058e1a619354c43fda8977e721decdc909166351ae4d4040da960541603cb  analysis/frozen_a4/test_analyze_reuse_clearing_synthetic.py
+6f9eb6c894c66803de90d3858fddc7fb3091bdd735dd82833f70c9fe3caf3451  level_annotation/human_check/make_sample.py
+1177ff123aed78df2fd1afdbd0098931d951b40055568468278cc7e3f62725c8  level_annotation/human_check/kappa.py
+2d4c138bb0e4f4af01bc979ec6ea8d1eeaef6068bc002ea8940bacc9d2562dfd  level_annotation/human_check/sample_games.txt
+ad754ce9512da50399164fc6dafdd43009f6dbb45b5220481d258212b9e898f3  third_party/franzen_m2_v3/MANIFEST_transcripts_events.sha256
+a0121a8c2f29ecac9d798c0c3781d7334ac1662386b625362665bb9620b9191c  third_party/franzen_m2_v3/MANIFEST.sha256
+9d8def29595e7b18d14b24ccdc1996e74164a45983924f8da9ff60d78ed9249f  analysis/check_s7_format.py
+99eb7a259612a82eb5ad2cccbd13859981298979a642470f70d05b9ae3a175df  frozen_history/PREREGISTRATION.after_a4.md
+Check all current files: shasum -a 256 -c <(tail -21 FREEZE.txt | head -20)

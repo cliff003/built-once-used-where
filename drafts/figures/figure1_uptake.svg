@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" width="100%" role="img" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<title>Figure 2. Uptake on opportunity levels in R-06</title><desc>Bar charts. A, by novelty label: S 77.2% of 79 levels, V 59.4% of 32, N 77.9% of 68. B, by level position: levels 2-3 69.7% of 76, middle 73.8% of 61, last two 83.3% of 42.</desc>
+<rect x="0" y="0" width="680" height="250" fill="#ffffff"/>
+<text x="18.0" y="22.0" font-size="12" fill="#1f1e1c" text-anchor="start" font-weight="600">A. By novelty label</text>
+<line x1="58.0" y1="196.0" x2="308.0" y2="196.0" stroke="#b5b4ae" stroke-width="1"/>
+<text x="52.0" y="199.5" font-size="9.5" fill="#5c5b56" text-anchor="end" font-weight="400">0%</text>
+<line x1="58.0" y1="158.5" x2="308.0" y2="158.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="52.0" y="162.0" font-size="9.5" fill="#5c5b56" text-anchor="end" font-weight="400">25%</text>
+<line x1="58.0" y1="121.0" x2="308.0" y2="121.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="52.0" y="124.5" font-size="9.5" fill="#5c5b56" text-anchor="end" font-weight="400">50%</text>
+<line x1="58.0" y1="83.5" x2="308.0" y2="83.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="52.0" y="87.0" font-size="9.5" fill="#5c5b56" text-anchor="end" font-weight="400">75%</text>
+<line x1="58.0" y1="46.0" x2="308.0" y2="46.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="52.0" y="49.5" font-size="9.5" fill="#5c5b56" text-anchor="end" font-weight="400">100%</text>
+<path d="M78.0,196.0 L78.0,84.2 Q78.0,80.2 82.0,80.2 L118.0,80.2 Q122.0,80.2 122.0,84.2 L122.0,196.0 Z" fill="#2a78d6"><title>S: uptake 77.2% on 79 opportunity levels</title></path>
+<text x="100.0" y="74.2" font-size="10.5" fill="#1f1e1c" text-anchor="middle" font-weight="600">77.2%</text>
+<text x="100.0" y="212.0" font-size="11" fill="#1f1e1c" text-anchor="middle" font-weight="400">S</text>
+<text x="100.0" y="226.0" font-size="9.5" fill="#5c5b56" text-anchor="middle" font-weight="400">79 levels</text>
+<path d="M161.0,196.0 L161.0,110.9 Q161.0,106.9 165.0,106.9 L201.0,106.9 Q205.0,106.9 205.0,110.9 L205.0,196.0 Z" fill="#eb6834"><title>V: uptake 59.4% on 32 opportunity levels</title></path>
+<text x="183.0" y="100.9" font-size="10.5" fill="#1f1e1c" text-anchor="middle" font-weight="600">59.4%</text>
+<text x="183.0" y="212.0" font-size="11" fill="#1f1e1c" text-anchor="middle" font-weight="400">V</text>
+<text x="183.0" y="226.0" font-size="9.5" fill="#5c5b56" text-anchor="middle" font-weight="400">32 levels</text>
+<path d="M244.0,196.0 L244.0,83.1 Q244.0,79.1 248.0,79.1 L284.0,79.1 Q288.0,79.1 288.0,83.1 L288.0,196.0 Z" fill="#1baf7a"><title>N: uptake 77.9% on 68 opportunity levels</title></path>
+<text x="266.0" y="73.1" font-size="10.5" fill="#1f1e1c" text-anchor="middle" font-weight="600">77.9%</text>
+<text x="266.0" y="212.0" font-size="11" fill="#1f1e1c" text-anchor="middle" font-weight="400">N</text>
+<text x="266.0" y="226.0" font-size="9.5" fill="#5c5b56" text-anchor="middle" font-weight="400">68 levels</text>
+<text x="360.0" y="22.0" font-size="12" fill="#1f1e1c" text-anchor="start" font-weight="600">B. By level position</text>
+<line x1="400.0" y1="196.0" x2="650.0" y2="196.0" stroke="#b5b4ae" stroke-width="1"/>
+<text x="394.0" y="199.5" font-size="9.5" fill="#5c5b56" text-anchor="end" font-weight="400">0%</text>
+<line x1="400.0" y1="158.5" x2="650.0" y2="158.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="394.0" y="162.0" font-size="9.5" fill="#5c5b56" text-anchor="end" font-weight="400">25%</text>
+<line x1="400.0" y1="121.0" x2="650.0" y2="121.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="394.0" y="124.5" font-size="9.5" fill="#5c5b56" text-anchor="end" font-weight="400">50%</text>
+<line x1="400.0" y1="83.5" x2="650.0" y2="83.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="394.0" y="87.0" font-size="9.5" fill="#5c5b56" text-anchor="end" font-weight="400">75%</text>
+<line x1="400.0" y1="46.0" x2="650.0" y2="46.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="394.0" y="49.5" font-size="9.5" fill="#5c5b56" text-anchor="end" font-weight="400">100%</text>
+<path d="M420.0,196.0 L420.0,95.4 Q420.0,91.4 424.0,91.4 L460.0,91.4 Q464.0,91.4 464.0,95.4 L464.0,196.0 Z" fill="#8a8984"><title>Levels 2–3: uptake 69.7% on 76 opportunity levels</title></path>
+<text x="442.0" y="85.4" font-size="10.5" fill="#1f1e1c" text-anchor="middle" font-weight="600">69.7%</text>
+<text x="442.0" y="212.0" font-size="11" fill="#1f1e1c" text-anchor="middle" font-weight="400">Levels 2–3</text>
+<text x="442.0" y="226.0" font-size="9.5" fill="#5c5b56" text-anchor="middle" font-weight="400">76 levels</text>
+<path d="M503.0,196.0 L503.0,89.3 Q503.0,85.3 507.0,85.3 L543.0,85.3 Q547.0,85.3 547.0,89.3 L547.0,196.0 Z" fill="#8a8984"><title>Middle: uptake 73.8% on 61 opportunity levels</title></path>
+<text x="525.0" y="79.3" font-size="10.5" fill="#1f1e1c" text-anchor="middle" font-weight="600">73.8%</text>
+<text x="525.0" y="212.0" font-size="11" fill="#1f1e1c" text-anchor="middle" font-weight="400">Middle</text>
+<text x="525.0" y="226.0" font-size="9.5" fill="#5c5b56" text-anchor="middle" font-weight="400">61 levels</text>
+<path d="M586.0,196.0 L586.0,75.0 Q586.0,71.0 590.0,71.0 L626.0,71.0 Q630.0,71.0 630.0,75.0 L630.0,196.0 Z" fill="#8a8984"><title>Last two: uptake 83.3% on 42 opportunity levels</title></path>
+<text x="608.0" y="65.0" font-size="10.5" fill="#1f1e1c" text-anchor="middle" font-weight="600">83.3%</text>
+<text x="608.0" y="212.0" font-size="11" fill="#1f1e1c" text-anchor="middle" font-weight="400">Last two</text>
+<text x="608.0" y="226.0" font-size="9.5" fill="#5c5b56" text-anchor="middle" font-weight="400">42 levels</text>
+<text x="18.0" y="243.0" font-size="9" fill="#5c5b56" text-anchor="start" font-weight="400">Share of opportunity levels with at least one carried call. Descriptive; the frozen test of S against N is U2.</text>
+</svg>

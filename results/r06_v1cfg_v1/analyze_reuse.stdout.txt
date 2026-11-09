@@ -1,0 +1,7 @@
+transcripts: 50 over 25 games; passes per game: min 2, max 2
+snippets 4335, syntax errors 12, functions defined 1956, kept 1355
+U1 reuse share of kept functions: +0.256 [+0.201, +0.316]  games=25 -> intermediate
+U2 uptake S - N on opportunity levels: -0.007 [-0.124, +0.132]  games=25  (S 0.7721518987341772, N 0.7794117647058824; levels S=79 N=68) -> inconclusive
+descriptive: {"levels_reached_2plus": 193, "opportunity_rate": 0.927461139896373, "uptake_V": 0.59375, "revised_share": 0.09497206703910614, "uptake_by_position": {"levels 2-3": [0.6973684210526315, 76], "middle": [0.7377049180327869, 61], "last two": [0.8333333333333334, 42]}, "S_approx_actions_median": {"uptake": 28.5, "no_uptake": 19, "n_uptake": 40, "n_no_uptake": 15}}
+Amendment 2 gate on ft09,sp80,ls20,vc33 : {'G1_kept': 199, 'G2_carried_fns': 17, 'G3_completed': 34, 'passes_gate': True}
+wrote /Users/cliff/Documents/coding/Kaggle/ARC-AGI/paper-track/results/r06_v1cfg_v1/analyze_reuse.json

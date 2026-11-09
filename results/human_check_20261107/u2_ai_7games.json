@@ -1,0 +1,12 @@
+{
+ "labels_file": "manual_labels.csv",
+ "labels_sha256": "74b9eeeb6645eb5587bf250a655f777ac9ab7525481bf7420c737254eb9156e0",
+ "estimate": 0.1428571428571429,
+ "lo90": 0.0,
+ "hi90": 0.2962962962962963,
+ "games": 7,
+ "S_levels": 9,
+ "N_levels": 21,
+ "uptake_S": 1.0,
+ "uptake_N": 0.8571428571428571
+}

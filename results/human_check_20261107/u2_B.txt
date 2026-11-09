@@ -1,0 +1,1 @@
+labels_human_B.csv (sha256 bf4a462b3b34): U2 uptake S - N on 7 games = -0.100 [-0.267, +0.000]; opportunity levels S=20 N=9; uptake S +0.900 N +1.000. No verdict (section 7b).

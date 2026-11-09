@@ -1,0 +1,7 @@
+transcripts: 100 over 25 games; passes per game: min 4, max 4
+snippets 9271, syntax errors 31, functions defined 3716, kept 2535
+U1 reuse share of kept functions: +0.267 [+0.229, +0.304]  games=24 -> intermediate
+U2 uptake S - N on opportunity levels: +0.042 [-0.037, +0.121]  games=24  (S 0.823943661971831, N 0.782312925170068; levels S=142 N=147) -> inconclusive
+descriptive: {"levels_reached_2plus": 384, "opportunity_rate": 0.9192708333333334, "uptake_V": 0.78125, "revised_share": 0.04815864022662889, "uptake_by_position": {"levels 2-3": [0.7315436241610739, 149], "middle": [0.8166666666666667, 120], "last two": [0.8928571428571429, 84]}, "S_approx_actions_median": {"uptake": 29, "no_uptake": 19, "n_uptake": 85, "n_no_uptake": 21}}
+Amendment 2 gate on ft09,sp80,ls20,vc33 : {'G1_kept': 367, 'G2_carried_fns': 64, 'G3_completed': 65, 'passes_gate': True}
+wrote results/s7_franzen_m2_v3/analyze_reuse.json

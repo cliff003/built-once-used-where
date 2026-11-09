@@ -1,0 +1,20 @@
+start 2026-11-01T05:05:55Z; out_dir new, entries before this file: 0
+host Darwin 27.2.0; /bin/bash 3.2.57(1)-release; Python 3.9.6 at /usr/bin/python3; nice 19 for every python step
+step0 freeze check start 2026-11-01T05:05:55Z
+step0 freeze check end 2026-11-01T05:05:55Z exit 0; OK lines 20/20
+6d79af14db1916c7a0e947fc59d350f1e05b309119fd854d8fbbae1c4df75342  analysis/prepare_units.py
+dc907df06d8c2d2623d953c293e97499460cd74d05dd8f16d3b2926013533d99  analysis/analyze_reuse.py
+8752018e9767a0d9b69041a450882494ce299dc23dd3b2499d439cae7ee27394  analysis/analyze_reuse_clearing.py
+fb8ef8a0dc17b79dbda2b4b4ba0ee5b1784ea54202d313abf7fbdf7574f8dee0  level_annotation/levels.csv
+90727c289ac47369c7559022c507189fb3c49b254830c59f367609daaecc77ff  PREREGISTRATION.md
+step1 scratch run dir 2026-11-01T05:05:55Z: benchmark.json decompressed, transcripts linked
+step2 prepare_units start 2026-11-01T05:05:55Z
+step2 prepare_units end 2026-11-01T05:05:56Z exit 0
+step3 input hash check start 2026-11-01T05:05:56Z
+step3 input hash check end 2026-11-01T05:05:59Z exit 0
+step4 analyze_reuse start 2026-11-01T05:05:59Z
+step4 analyze_reuse end 2026-11-01T05:06:02Z exit 0
+step5 analyze_reuse_clearing start 2026-11-01T05:06:02Z
+step5 analyze_reuse_clearing end 2026-11-01T05:06:18Z exit 0
+step6 shared requests.jsonl line count 2026-11-01T05:06:18Z: 1
+done 2026-11-01T05:06:18Z

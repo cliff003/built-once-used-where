@@ -1,0 +1,7 @@
+transcripts: 50; python calls 4335; infrastructure clearings 27
+U1 primary (as analyze_reuse.py): +0.256 [+0.201, +0.316]  games=25 -> intermediate
+T1 over available functions:      +0.267 [+0.211, +0.329]  games=25 -> intermediate
+U2 primary (as analyze_reuse.py): -0.007 [-0.124, +0.132]  games=25  (levels S=79 N=68) -> inconclusive
+T2 without clearing levels:       -0.004 [-0.137, +0.168]  games=25  (levels S=69 N=61) -> inconclusive
+descriptive: {"survival_share": 0.9389830508474576, "eligible": 885, "available": 831, "clearings_by_kind": {"Tool timed out after": 27}, "clearings_per_100_calls": {"first": [0.0, 0, 884], "S": [1.2686567164179106, 17, 1340], "V": [0.4166666666666667, 2, 480], "N": [0.49049662783568365, 8, 1631]}, "opportunity_levels_with_clearing": {"S": [0.12658227848101267, 10, 79], "V": [0.0625, 2, 32], "N": [0.10294117647058823, 7, 68]}, "uptake_before_first_clearing": {"S": [0.7, 7, 10], "V": [0.5, 1, 2], "N": [0.7142857142857143, 5, 7]}, "calls_per_opportunity_level": {"with_clearing": {"n": 19, "median": 24, "q25": 20, "q75": 40, "mean": 30.63157894736842}, "without_clearing": {"n": 160, "median": 14.0, "q25": 8, "q75": 24, "mean": 16.925}}, "request_log_check": {"units": 50, "transcript_clearings": 27, "request_counts": {"infra_errors": 27, "silent_cleared": 0, "infra_cleared": 27}, "units_agreeing_on_infra_errors": 50}}
+wrote /Users/cliff/Documents/coding/Kaggle/ARC-AGI/paper-track/results/r06_v1cfg_v1/analyze_reuse_clearing.json

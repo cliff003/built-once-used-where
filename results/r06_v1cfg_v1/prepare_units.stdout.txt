@@ -1,0 +1,3 @@
+game-runs 50; status counts {'ok': 50, 'invalid': 0, 'cut': 0, 'missing': 0}
+passes: {0: {'expected_games': 25, 'not_ok': 0, 'complete': True, 'reruns': 0, 'run_dir': '/private/tmp/claude-502/-Users-cliff-Documents-coding-Kaggle-ARC-AGI/801e79ca-804f-4594-adee-720133f48b04/scratchpad/r06/run'}, 1: {'expected_games': 25, 'not_ok': 0, 'complete': True, 'reruns': 0, 'run_dir': '/private/tmp/claude-502/-Users-cliff-Documents-coding-Kaggle-ARC-AGI/801e79ca-804f-4594-adee-720133f48b04/scratchpad/r06/run'}}
+complete passes 2; included transcripts 50; primary data exist (>= 2 complete passes): yes

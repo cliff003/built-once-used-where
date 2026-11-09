@@ -1,0 +1,12 @@
+{
+ "labels_file": "labels_human_A.csv",
+ "labels_sha256": "c0a05a155ec90c623f5049a153f748200d42fd63cccb002c4394307d119f0c7c",
+ "estimate": -0.033333333333333326,
+ "lo90": -0.2222222222222222,
+ "hi90": 0.09999999999999998,
+ "games": 7,
+ "S_levels": 10,
+ "N_levels": 15,
+ "uptake_S": 0.9,
+ "uptake_N": 0.9333333333333333
+}

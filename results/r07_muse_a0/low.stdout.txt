@@ -1,0 +1,7 @@
+{'path': 'ft09-0d8bbf25_p0.txt', 'game': 'ft09', 'snippets': 536, 'python_calls': 536, 'state_lines': 207}
+{'path': 'ls20-9607627b_p0.txt', 'game': 'ls20', 'snippets': 405, 'python_calls': 407, 'state_lines': 232}
+{'path': 'sp80-589a99af_p0.txt', 'game': 'sp80', 'snippets': 382, 'python_calls': 383, 'state_lines': 343}
+{'path': 'vc33-5430563c_p0.txt', 'game': 'vc33', 'snippets': 177, 'python_calls': 180, 'state_lines': 149}
+Amendment 2 gate on ft09,sp80,ls20,vc33 : {'G1_kept': 4, 'G2_carried_fns': 0, 'G3_completed': 3, 'passes_gate': False}
+format: units_ok True snippets_ok True -> {'G1': 'pass', 'G2': 'fail', 'G3': 'pass'}
+wrote /private/tmp/claude-502/-Users-cliff-Documents-coding-Kaggle-ARC-AGI/801e79ca-804f-4594-adee-720133f48b04/scratchpad/r07_out/low.json
